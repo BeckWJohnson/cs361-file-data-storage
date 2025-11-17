@@ -35,6 +35,7 @@ To receive these messages include this code: 'your_variable = socket.recv' immed
 You can then print them out wherever you would like.
 
 UML Diagram:
-![alt text](https://https://github.com/BeckWJohnson/cs361-file-data-storage/blob/main/images/UML_diagram.png?raw=true)
+<img width="1114" height="1314" alt="File_microservice_sequence_diagram" src="https://github.com/user-attachments/assets/5fc48633-95c8-4275-ab08-39eae70e93f2" />
+
 
 
