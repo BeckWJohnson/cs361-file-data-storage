@@ -18,14 +18,18 @@ and follow these steps:
                                          socket.connect("tcp://localhost:5555")'
 
 4. Finally, let's send a request! Requests must follow this format: "writing_method!file_path!string of data"
+   
         I.   writing_method can be append, overwrite, or delete. Append will append the data to the file,      
              overwrite will clear the file, then write the data, and delete will simply clear the file and ignore any data entered.
+   
         II.  file_path is relative to your local directory, so you can either reference a file or directory
              directly, or use the './' to indicate your current directory.
+   
         III. Your string of data can be however long you want, and does not need to be bounded by quotation marks.
              That is, unless you want your data to have quotation marks around it.
 
-5. To send this request you will use this code: 'socket.send(b"writing_method!file_path!string of data")
+
+6. To send this request you will use this code: 'socket.send(b"writing_method!file_path!string of data")
 
 Congrats! You should see your data appear in your chosen file.
 
