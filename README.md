@@ -19,8 +19,7 @@ and follow these steps:
 
 4. Finally, let's send a request! Requests must follow this format: "writing_method!file_path!string of data"
         I.   writing_method can be append, overwrite, or delete. Append will append the data to the file,      
-             overwrite will clear the file, then write the data, 
-             and delete will simply clear the file and ignore any data entered.
+             overwrite will clear the file, then write the data, and delete will simply clear the file and ignore any data entered.
         II.  file_path is relative to your local directory, so you can either reference a file or directory
              directly, or use the './' to indicate your current directory.
         III. Your string of data can be however long you want, and does not need to be bounded by quotation marks.
