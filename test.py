@@ -37,3 +37,5 @@ print()
 
 time.sleep(1)
 
+exit()
+
